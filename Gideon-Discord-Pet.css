@@ -8,3 +8,18 @@
     image-rendering: pixelated;
     background-image: url("https://raw.githubusercontent.com/Fynn9563/Discord-Pet/main/Gideon.webp");
 }
+
+@keyframes gideon {
+    /*
+    if you open the background image in ur browser, you will see that it has way more frames
+    so if you want, you could make ur own keyframes for a different animation
+    the top left frame is 0 0, second top row is -32 0, second row second is -32 -32 and so on
+    the ...00001% makes it so that there's no transition between the frames, so if you wanted say 3 frames, you'd do 0%, 33.3%; 33.30001%, 66.6%; 66.60001%, 100%
+    */
+    0%, 50% {
+        background-position: -64px 0;
+    }
+    50.0001%, 100% {
+        background-position: -64px -32px;
+    }
+}
