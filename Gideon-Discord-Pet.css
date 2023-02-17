@@ -7,10 +7,10 @@
     position: absolute;
     image-rendering: pixelated;
     background-image: url(".gif");
-    animation: oneko 1s infinite; /* change 1s to make the animation slower/faster */
+    animation: gideon 1s infinite; /* change 1s to make the animation slower/faster */
 }
 
-@keyframes oneko {
+@keyframes gideon {
     /*
     if you open the background image in ur browser, you will see that it has way more frames
     so if you want, you could make ur own keyframes for a different animation
