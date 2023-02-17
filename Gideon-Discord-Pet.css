@@ -6,7 +6,7 @@
     right: 10px; /* Switch this from right to left to put it on the left side, or increase/decrease to change its position */
     position: absolute;
     image-rendering: pixelated;
-    background-image: url("https://raw.githubusercontent.com/Fynn9563/Discord-Pet/main/Gideon.gif");
+    background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/https://raw.githubusercontent.com/Fynn9563/Discord-Pet/main/Gideon.gif");
     animation: gideon 1s infinite; /* change 1s to make the animation slower/faster */
 }
 
